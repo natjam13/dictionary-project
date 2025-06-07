@@ -29,3 +29,7 @@ a {
 .App a {
   color: #6c63ff;
 }
+
+.App .shecodes {
+  display: block;
+}

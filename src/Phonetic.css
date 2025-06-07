@@ -17,3 +17,8 @@
     background-color: blueviolet;
     color: white;
 }
+
+.Phonetic .text {
+    opacity: 0.5;
+    font-weight: bold;
+}

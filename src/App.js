@@ -13,8 +13,12 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="Yoga" />
         </main>
-        <footer className="App-footer">
-          Compiled by Natalie
+        <footer className="App-footer">    
+        
+          Complied and coded by <a href="https://www.linkedin.co/in/natalie-murray" target="_blank" rel="noreferrer"> Natalie Murray </a>
+          Is open sourced on <a href="https://github.com/natjam13/" target="_blank" rel="noreferrer">GitHub  </a>
+          Hosted on <a href="https://dictionary-project-nm.netlify.app/" target="_blank" rel="noreferrer" > Netlify</a>
+ 
         </footer>
       </div>
     </div>
