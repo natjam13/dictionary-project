@@ -1,9 +1,27 @@
 body {
-  background: #f9f8fe;
+  background-image:url("books.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.App {
+  background:#a5a18f;
+  
+  max-width: 960px;
+  margin:0 auto;
 }
 
 a {
   color: #9670f4;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.App h1,h2,h3 {
+  font-family: "Poppins", sans-serif;
 }
 
 .App {
@@ -22,14 +40,43 @@ a {
 }
 
 .App-footer {
-  font-size: 13px;
+  font-size: 18px;
   margin: 30px ;
   text-align: center;
 }
-.App a {
-  color: #6c63ff;
+
+.App footer a:hover {
+  text-decoration: underline;
 }
 
-.App .shecodes {
-  display: block;
+.App a { 
+  color :rgba(114, 5, 204, 0.793);
+  font-weight: 500px;
+  font-style: bold;
+
+  color:
+}
+
+.App .sheCodes img {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .App header h2 {
+    font-size: 40px;
+    position: relative;
+    z-index: 9999;
+  }
+ .App header {
+    padding: 60px 0;
+  }
+  
+  .App header h3 {
+    font-size: 12px;
+  }
+  
+  .App section {
+    padding: 30px 0;
+  }
 }

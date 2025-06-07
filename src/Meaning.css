@@ -1,11 +1,17 @@
 .Meaning h3 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 200px;
     line-height: 1.5;
 }
 
-.meaning .example {
+.Meaning .example {
     color:#70757a;
     font-style: italic;
     margin-top: 10px;
 }
+
+@media (max-width: 900px) {
+    .Meaning h3 {
+        font-size: 18px;
+        opacity: 1; }
+    }        
